@@ -7,6 +7,6 @@ I like to have observability/telemetry as a first-class consideration. As such, 
 ## roadmap/todo
 
 * Add perhaps a basic package that provides some helpers setting up `prometheus` metrics with something like a `CounterVec` and `SummaryVec` for counting function calls and collecting function latency. Perhaps some helpful, general labels can be added too (e.g. `httpMethod`, `route`, `responseCode`, etc.)
-* Perhaps consider filling the `go.mod` with some `open-telemetry/opentelemetry-go` stuff, `prometheus/prometheus` stuff, and some `prommetheus/node_exporter` stuff.
+* Perhaps consider filling the `go.mod` with some `open-telemetry/opentelemetry-go` stuff, `prometheus/client_golang` stuff, and some `prommetheus/node_exporter` stuff.
 * Add a `grafana` sidecar with the same caveat as the other sidecars.
 * ...
